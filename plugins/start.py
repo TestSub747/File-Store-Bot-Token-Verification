@@ -138,8 +138,8 @@ async def start_command(client: Client, message: Message):
 
         elif verify_status['is_verified']:
             reply_markup = InlineKeyboardMarkup(
-                [[InlineKeyboardButton("⚡️ ᴀʙᴏᴜᴛ", callback_data = "about"),
-                  InlineKeyboardButton('🍁 sᴇʀɪᴇsғʟɪx', url='https://t.me/Team_Netflix/40')]]
+                [[InlineKeyboardButton("⚡️ About", callback_data = "about"),
+                  InlineKeyboardButton('🍁 Dark Files', url='https://t.me/xrated_only')]]
             )
             await message.reply_text(
                 text=START_MSG.format(
